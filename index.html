@@ -7,17 +7,18 @@
       /*
       The test doesn't read my css correctly, that's why I put the css here
       */
-      #header{
-          display: flex;
-          justify-content: center;
-          align-items: center;
-      }
+      
 
       #nav-bar{
           position: fixed;
           top: 0;
           left: 0;
           width: 100%;
+      }
+      #header{
+          display: flex;
+          justify-content: center;
+          align-items: center;
       }
 
       #nav-bar ul{
@@ -26,6 +27,14 @@
           justify-content: space-between;
         }
         
+       
+        .form{
+          padding: 50px 0;
+        }
+
+        .form-input {
+          padding: 10px 0;
+        }
         #nav-bar a{
           color: #000;
         }
@@ -36,17 +45,10 @@
             }
 
             #nav-bar li{
-              margin: 10px 0;
+              margin: 12px 0;
             }
         }
 
-        .form{
-          padding: 50px 0;
-        }
-
-        .form-input {
-          padding: 10px 0;
-        }
 
         .form-input input{
           padding: 5px 10px;
@@ -59,7 +61,7 @@
           color: #fff;
           padding: 5px 10px;
           border: 1px solid #ccc;
-          border-radius: 5px;
+          border-radius: 6px;
         } 
         
         #submit:hover{
@@ -76,9 +78,12 @@
       <img id="header-img" src="https://terecluta.com/wp-content/uploads/2022/04/headerterecluta.png" />
       <nav id="nav-bar">
           <ul> 
-              <li><a href="#header" class="nav-link">Home</a></li>
-              <li><a href="#video" class="nav-link">Solutions</a></li>
-              <li><a href="#form" class="nav-link">Princing</a></li>
+            <li><a href="#header" class="nav-link">Home</a></li>
+            <li><a href="#video" class="nav-link">Solutions</a></li>
+            <li><a href="#form" class="nav-link">Princiing</a></li>
+            <li><a href="#header" class="nav-link">Home</a></li>
+            <li><a href="#video" class="nav-link">Solutions</a></li>
+            <li><a href="#form" class="nav-link">Princiing</a></li>
             </ul>
         </nav>
     </header>
@@ -94,6 +99,9 @@
     
           <input type="submit" id="submit" value="submit" />
         </form>
+        <p>every thing is ok</p>
+        <p>every thing is ok</p>
+
       </section>
       <footer>
         Copyright
